@@ -10,7 +10,7 @@
     --blue:#2f80ed;
     --orange:#f2994a;
     --green:#219653;
-    --ink:#17212f;
+    --ink:#000000;
     --muted:#526273;
     --paper:#ffffff;
     --soft:#eef5fb;
@@ -48,7 +48,7 @@
     line-height:1.45;
     color:var(--muted)
   }
-  .story{display:grid;grid-template-columns:76mm 1fr;gap:6mm;align-items:center;margin-bottom:5mm;padding-bottom:5mm;border-bottom:1px solid #d8e2ec}
+  .story{display:grid;grid-template-columns:76mm 1fr;gap:6mm;align-items:center;margin-bottom:5mm;padding-bottom:5mm;border-bottom:1px solid black}
   .story:nth-of-type(even){grid-template-columns:1fr 76mm}
   .story:nth-of-type(even) .photo{order:2}
   .photo{height:49mm;border-radius:11px;overflow:hidden;border:3px solid white;box-shadow:0 6px 18px rgba(16,42,67,.18);background:#d9e2ec;position:relative}
@@ -73,7 +73,7 @@
 <body>
 <main class="sheet">
   <div class="content">
-    <header>
+    <header style="background:linear-gradient(115deg,var(--navy),#264f73);">
       <div class="class-label">School Assembly Presentation</div>
       <h1>CLASS 10 F - SYNERGY</h1>
       <div class="tagline">Together We Are Stronger</div>
